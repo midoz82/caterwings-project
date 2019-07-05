@@ -75,9 +75,9 @@ public class  ProductResource{
     }
 //
     @DELETE
-    @Path("/delete")
+    @Path("/delete/{id}")
     @Produces(MediaType.APPLICATION_JSON)
-    public boolean deleteProduct(Integer id) {
+    public boolean deleteProduct(@PathParam("id") int id) {
         //logger.info(".");
         return operations.deleteProduct(id);
     }
