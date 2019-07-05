@@ -1,0 +1,3 @@
+com/caterwings/project/models/Product.class
+com/caterwings/project/persistence/DatabaseOperations.class
+com/caterwings/project/PresistenceSessionFactory.class
